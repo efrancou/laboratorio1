@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<!--
+	Road Trip by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>{{ titulo }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+	</head>
+	<body>
+
+		<!-- Header -->
+			{{> header }}
+
+		<!-- Nav -->
+		{{> navbar }}
+
+		<!-- Banner -->
+		<!--
+			Note: To show a background image, set the "data-bg" attribute below
+			to the full filename of your image. This is used in each section to set
+			the background image.
+		-->
+			<section id="banner" class="bg-img" data-bg="banner.png">
+				<div class="inner">
+					<header>
+						<h1>Aquí inicia un Dev.</h1>
+					</header>
+				</div>
+				<a href="#one" class="more">Ver más</a>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper post bg-img" data-bg="banner2.png">
+				<div class="inner">
+					<article class="box">
+						<header>
+							<h2>I build WordPress Websites</h2>
+							<p>PROJECTO 2021</p>
+						</header>
+						<div class="content">
+							<p>Trabajo con Divi, para facilidad de mantenimiento y autogestión. CSS aparte.</p>
+						</div>
+						<footer>
+							<a href="https://activa.villaelisa.gov.ar" class="button alt">Mirar la web</a>
+						</footer>
+					</article>
+				</div>
+				<a href="#two" class="more">Continuar viendo</a>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper post bg-img" data-bg="banner3.jpg">
+				<div class="inner">
+					<article class="box">
+						<header>
+							<h2>Creo animaciones en formato Lottie</h2>
+							<p>2021</p>
+						</header>
+						<div class="content">
+							<center>
+							<lottie-player src="/lottie/ahorroPrevio-2105.json" background="transparent"  speed="1"  style="width: 300px; height: 300px;" loop autoplay></lottie-player></center>
+						</div>
+						<footer>
+							<a href="https://estebanfrancou.com.ar" class="button alt">Ver website personal</a>
+						</footer>
+					</article>
+				</div>
+			</section>
+
+		<!-- Footer -->
+		{{> footer }}
+
+	</body>
+</html>
