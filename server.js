@@ -3,7 +3,7 @@ const express = require('express');
 const hbs = require('hbs');
 const app = express();
 
-cons port = process.env.PORT || 3000;
+const port = process.env.PORT || 3000;
 
 //TODO: Requerimos de (hbs);
 app.set('view engine', 'hbs');
