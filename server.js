@@ -22,8 +22,8 @@ app.get('/', function (req, res) {
   });
 
 
-app.get('/generic', function (req, res) {
-    res.render('generic')
+app.get('/not-home', function (req, res) {
+    res.render('not-home')
   });
 
  
